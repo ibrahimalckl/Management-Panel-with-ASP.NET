@@ -1,0 +1,22 @@
+﻿body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    max-width: 1024px;
+    margin: 0 auto;
+    }
+.anatablo{
+    width: 100%;
+}
+.anatablomenu{
+    width: 130px;
+    vertical-align: top;
+}
+.anatabloicerik{
+    vertical-align: top;
+}
+.anacerceve{
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    background-color: lavender;
+
+}

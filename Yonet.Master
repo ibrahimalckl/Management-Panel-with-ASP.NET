@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Yonet.master.cs" Inherits="_1912901060_Odev4.Yonet" %>
+
+<%@ Register Src="~/UserControl/YonetMenu.ascx" TagPrefix="uc1" TagName="YonetMenu" %>
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="AnaStil.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table class="anatablo">
+                <tr>
+                    <td class="anacerceve">
+                        <img src="Resim/banner.png">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="anacerceve">
+                        <uc1:YonetMenu runat="server" ID="YonetMenu" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="anatabloicerik anacerceve">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="anacerceve">Dipnot</td>
+                </tr>
+            </table>
+           
+        </div>
+    </form>
+</body>
+</html>
